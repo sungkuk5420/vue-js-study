@@ -37,7 +37,12 @@ Default ([Vue 2]babel, eslint)를 고를것.
 ```
 뷰 라우터 설치
 npm install --save vue-router
+redirect속성과 router-link
+```
 
-vetur를 확장프로그램으로 설치하면 뷰파일 인식이 된다.
+## 확장프로그램 목록
+```
+ vetur를 확장프로그램으로 설치하면 뷰파일 인식이 된다.
+ vue peek 컴포넌트 링크이동
 
 ```

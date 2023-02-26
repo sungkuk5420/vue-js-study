@@ -47,14 +47,38 @@ Default ([Vue 2]babel, eslint)를 고를것.
 
 ## eslint
 ```
-npm i eslint eslint-config-prettier eslint-plugin-prettier eslint-plugin-vue --save-dev
+package.json에 설정 내용이 들어가있다.
+
 
 ```
 
 ### 라우터 기본
 ```
 뷰 라우터 설치
-npm install --save vue-router
+npm install --save vue-router@3.0.2
+그후 main.js에
+
+
+import Vue from 'vue'
+import App from './App.vue'
+import vueRouter from 'vue-router'
+
+Vue.config.productionTip = false
+Vue.use(vueRouter)
+
+const router = new vueRouter({
+  routes:[
+
+  ]
+})
+
+new Vue({
+  render: h => h(App),
+  router
+}).$mount('#app')
+
+
+이렇게 작성한다.
 redirect속성과 router-link
 ```
 

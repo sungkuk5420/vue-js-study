@@ -1,7 +1,5 @@
 <template>
-  <div>
-    jobs
-  </div>
+  <div>news</div>
 </template>
 
 <script>
